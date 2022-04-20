@@ -61,7 +61,7 @@ body {
   margin: 0 auto;
   width: 800px;
   height: 900px;
-  background: url(../../img/city_map.jpg) no-repeat;
+  background: url(city_map.jpg) no-repeat;
   background-size: contain;
 }
 .main .map .marker {
