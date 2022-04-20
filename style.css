@@ -61,7 +61,7 @@ body {
   margin-left: 250px;
   width: 900px;
   height: 500px;
-  background: url(img/main-map-removebg-preview.png) no-repeat;
+  background: url(img/map_region.png) no-repeat;
   background-size: contain;
 }
 .main .map .marker_city {
