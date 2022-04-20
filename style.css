@@ -61,25 +61,89 @@ body {
   margin-left: 250px;
   width: 900px;
   height: 500px;
-  background: url(map_region.png) no-repeat;
+  background: url(../../img/main-map-removebg-preview.png) no-repeat;
   background-size: contain;
 }
-.main .map .marker_city {
+.main .map .marker {
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 10px;
+  height: 10px;
   border-radius: 100px;
   background-color: red;
   position: absolute;
   z-index: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   -webkit-box-shadow: 1px 1px 5px 4px red;
           box-shadow: 1px 1px 5px 4px red;
-  margin-top: 285px;
-  margin-left: 283px;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
 }
 .main .map .marker_city:hover {
   width: 30px;
   height: 30px;
+}
+.main .map .active:hover {
+  width: 15px;
+  height: 15px;
+}
+.main .map .marker_city {
+  width: 25px;
+  height: 25px;
+  margin-top: 285px;
+  margin-left: 283px;
+}
+.main .map .marker_bolotnya {
+  margin-top: 163px;
+  margin-left: 588px;
+}
+.main .map .marker_gadilovichi {
+  margin-top: 283px;
+  margin-left: 430px;
+}
+.main .map .marker_gorodec {
+  margin-top: 381px;
+  margin-left: 466px;
+}
+.main .map .marker_dovsk {
+  margin-top: 207px;
+  margin-left: 531px;
+}
+.main .map .marker_juravichi {
+  margin-top: 115px;
+  margin-left: 572px;
+}
+.main .map .marker_pobolovo {
+  margin-top: 349px;
+  margin-left: 138px;
+}
+.main .map .marker_zarechye {
+  margin-top: 153px;
+  margin-left: 308px;
+}
+.main .map .marker_zvonec {
+  margin-top: 129px;
+  margin-left: 507px;
+}
+.main .map .marker_kisteni {
+  margin-top: 200px;
+  margin-left: 403px;
+}
+.main .map .marker_lychin {
+  margin-top: 348px;
+  margin-left: 284px;
+}
+.main .map .marker_pridneprovskiy {
+  margin-top: 270px;
+  margin-left: 380px;
+}
+.main .map .marker_stolpnya {
+  margin-top: 448px;
+  margin-left: 535px;
+}
+.main .map .marker_tixinichi {
+  margin-top: 215px;
+  margin-left: 170px;
+}
+.main .map .marker_zabolotye {
+  margin-top: 322px;
+  margin-left: 216px;
 }
